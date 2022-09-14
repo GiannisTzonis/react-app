@@ -3,7 +3,8 @@ import Navbar from "./components/Navbar"
 import Main from "./components/Main"
 import Contact from "./components/Contacts"
 
-//import imageA from "../components/images/contact.jpg"
+import imageA from "./contact.jpg"
+import imageB from "./contact2.jpg"
 
 export default function App() {
     return (
@@ -11,13 +12,13 @@ export default function App() {
             <Navbar />
             <Main />
             <Contact
-                img="./images/contact.jpg"
+                img={imageA}
                 name="Fiji"
                 phone="(212) 023 2890"
                 mail="fiji@fiji.meow"
             />
             <Contact
-                img="./images/contact2.jpg"
+                img={imageB}
                 name="Maya"
                 phone="(212) 948 4790"
                 mail="maya@maya.meow"
