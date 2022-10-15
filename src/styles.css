@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
-    font-size: 35px;
 }
 
 body {
     margin: 0;
     font-family: 'Cardo', serif;
+    height: 100vh;
+    background-color: rgba(38, 38, 195, 0.956);
 }
 
 nav {
@@ -34,5 +35,32 @@ nav {
 .nav--icon {
     height: 30px;
     margin-right: 7px;
+}
+
+main {
+    color: rgb(253, 253, 186);
+    padding: 57px 27px;
+}
+
+.main--title {
+    font-size: 39px;
+    margin: 0;
+    letter-spacing: -0.03em;
+}
+
+.main--facts {
+    font-size: 22px;
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--facts > li::marker {
+    color: red;
+    font-size: 1.3em;
 }
 
