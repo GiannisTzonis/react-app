@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-size: 35px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Cardo', serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+    margin: 0;
+}
+
+.nav--logo_text {
+    margin-right: auto;
+    font-weight: 700;
+    color: rgb(0, 255, 200);
+    font-size: 22px;
+}
+
+.nav--title {
+    color: rgb(0, 255, 200);
+}
+
+.nav--icon {
+    height: 30px;
+    margin-right: 7px;
+}
+
