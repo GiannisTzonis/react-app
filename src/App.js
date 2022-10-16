@@ -8,8 +8,18 @@ export default function App() {
         <div className="container">
             <Navbar />
             <Main />
-            <Contact />
-            <Contact />
+            <Contact
+                img="./images/contact.jpg"
+                name="Fiji"
+                telephone="(212) 023 2890"
+                mail="fiji@fiji.meow"
+            />
+            <Contact
+                img="./images/contact2.jpg"
+                name="Maya"
+                telephone="(212) 948 4790"
+                mail="maya@maya.meow"
+            />
         </div>
     )
 }
