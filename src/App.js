@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar"
 import Main from "./components/Main"
 import Contact from "./components/Contacts"
 
+//import imageA from "../components/images/contact.jpg"
+
 export default function App() {
     return (
         <div className="container">
